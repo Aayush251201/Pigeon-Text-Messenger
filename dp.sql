@@ -40,9 +40,7 @@ CREATE TABLE `dp` (
 -- Dumping data for table `dp`
 --
 
-INSERT INTO `dp` (`sn`, `username`, `name`, `size`, `folder`, `date`) VALUES
-(1, 'Aayush', 'IMG-20201220-WA0018.jpg', '63758', 'asset/IMG-20201220-WA0018.jpg', '2021-04-20 22:59:46'),
-(2, 'demo', 'WIN_20191113_23_51_54_Pro.jpg', '106083', 'asset/WIN_20191113_23_51_54_Pro.jpg', '2021-04-24 18:06:32');
+
 
 --
 -- Indexes for dumped tables
@@ -62,7 +60,7 @@ ALTER TABLE `dp`
 -- AUTO_INCREMENT for table `dp`
 --
 ALTER TABLE `dp`
-  MODIFY `sn` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `sn` int(3) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
