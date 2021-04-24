@@ -46,9 +46,6 @@ CREATE TABLE `profile` (
 -- Dumping data for table `profile`
 --
 
-INSERT INTO `profile` (`sn`, `username`, `fn`, `ln`, `gender`, `dob`, `work`, `city`, `state`, `country`, `bio`, `date`) VALUES
-(1, 'Aayush', 'Aayush', 'Parekh', 'Male', '2001-01-25', 'student', 'sil', 'dnh', 'india', 'sab changa!', '2021-04-20 22:37:13'),
-(2, 'demo', 'fname', 'lname', 'Male', '2021-04-15', 'aa', 'valsad', 'Gujarat', 'india', 'xyz', '2021-04-24 18:05:57');
 
 --
 -- Indexes for dumped tables
@@ -68,7 +65,7 @@ ALTER TABLE `profile`
 -- AUTO_INCREMENT for table `profile`
 --
 ALTER TABLE `profile`
-  MODIFY `sn` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `sn` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
