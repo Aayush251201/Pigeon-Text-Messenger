@@ -40,13 +40,6 @@ CREATE TABLE `login` (
 -- Dumping data for table `login`
 --
 
-INSERT INTO `login` (`sn`, `username`, `mobile`, `pass`, `email`, `date`) VALUES
-(1, 'Aayush', '8140769281', 'A@yush25', 'aayushparekh83@gmail.com', '2021-04-20 22:34:50'),
-(2, 'Anay', '8282505046', 'Aa!1123', 'anay@gmail.com', '2021-04-20 22:47:08'),
-(3, 'Ramesh', '9999999999', 'Abc123!@#', 'ramesh@gmail.com', '2021-04-20 20:25:30'),
-(4, 'Bhavin', '1233211230', 'Bhavin!2', 'bhavin@gmail.com', '2021-04-23 22:20:21'),
-(5, 'demo', '8140769281', 'Demo!1', 'demo@gmail.com', '2021-04-24 18:03:31');
-
 --
 -- Indexes for dumped tables
 --
@@ -65,7 +58,7 @@ ALTER TABLE `login`
 -- AUTO_INCREMENT for table `login`
 --
 ALTER TABLE `login`
-  MODIFY `sn` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `sn` int(3) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
